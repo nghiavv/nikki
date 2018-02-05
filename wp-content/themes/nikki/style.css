@@ -1,0 +1,241 @@
+/*コンテナ*/
+div#container {
+	width: 760px;
+	margin:auto
+}
+/*header */
+div#header h1 {
+	font-size: 1.875em;
+	margin:0;
+	float: left;
+	margin-bottom: 4px
+}
+div#header p#desc {
+	font-size: 0.75em;
+	color: #444444;
+	margin: 0;
+	float:right;
+	margin-top:18px
+}
+div#header h1 a{
+	text-decoration: none;
+	color:#000000
+}
+div#header {border-bottom: none;
+			padding-bottom: 0px;
+			margin-bottom: 20px
+}
+div#header p#image {
+	margin: 8px 0 0
+}
+div#header {
+	margin-bottom: 0
+}
+div#nav ul {
+	background-color: #000000;
+	padding: 8px 0;
+	margin: 0 0 20px
+}
+div#nav li a {
+	font-size: 0.75em;
+	color: #ffffff;
+	text-decoration: none
+}
+div#nav li a:hover {
+	color: #ffaa00
+}
+div#nav li {
+	display: inline;
+	list-style-type: none;
+	border-right: solid 1px #ffffff;
+	padding-left: 15px;
+	padding-right: 15px
+}
+div#nav li:last-child {
+	border-right:none;
+}
+
+div.post{
+	border:solid 1px #0c8bcd;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+div.post h2 {
+	background-color: #a3d2f2;
+	font-size: 0.875em;
+	padding: 10px;
+	margin: 0
+}
+div.post h2 a {
+	text-decoration: none;
+	color: #000000;
+}
+div.post p {
+	font-size: 0.875em;
+	line-height: 1.6;
+	margin-top: 10px
+}
+p.postinfo {
+	color: #0c8bcd;
+	line-height: 1.6;
+	text-align: right;
+	margin: 20px 0 0;
+	clear: both
+}
+p.postinfo a {
+	color: #0c8bcd
+}
+span.nextpage {
+	float: right;
+}
+span.prevpage {
+	float: left;
+}
+p.pagelink a {
+	font-size: 0.75em;
+	color: #0c8bcd
+}
+p.pagelink {
+	overflow:hidden;
+	width: 100%
+}
+div#footer {
+	clear: both;
+	border-top: solid 3px #000000;
+	padding: 6px 0
+}
+address a {
+	color: #000000
+}
+
+div#content.page {
+	width: 100%
+}
+
+div.post img {
+	border: none
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+.alignleft {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px
+}
+.wp-caption {
+	border: solid 1px #aaaaaa;
+	text-align:center;
+	padding-top: 5px
+}
+div#sidebar {	
+	width: 220px;
+	float: right;
+}
+div#content {
+	width: 515px;
+	float: left
+}
+p#pagetitle {
+	font-size: 0.875em;
+	font-weight: bold;
+	color: #0c8bcd;
+	border: dotted 1px #0c8bcd;
+	text-align: center;
+	padding: 10px 0;
+	margin-top: 0
+}
+div#sidebar ul {
+	margin: 0;
+	padding:0
+}
+div#sidebar li {
+	list-style-type: none
+}
+div#sidebar .widget {
+	background-color: #0c8bcd;
+	padding: 16px;
+	margin-bottom: 10px
+}
+div#sidebar h2 {
+	font-size: 0.75em;
+	color: #ffffff;
+	border-bottom: solid 1px #ffffff;
+	padding-bottom: 8px;
+	margin: 0 0 10px
+}
+div#sidebar li li {
+	font-size: 0.75em;
+	margin-bottom: 4px;
+	padding-left: 16px
+}
+div#sidebar li li a {
+	text-decoration: none;
+	color: #ffffff
+}
+#wp-calendar {
+	font-size: 0.75em;
+	color: #ffffff;	
+	width: 100%
+}
+#wp-calendar a {
+	color: #ffffff;
+}
+#wp-calendar td, #wp-calendar th {
+	text-align: center;
+}
+#wp-calendar caption {
+	font-weight: bold;
+	text-align: left;
+	border-bottom: solid 1px #ffffff;
+	padding-bottom: 8px;
+	margin-bottom: 8px	
+}
+#wp-calendar #prev {
+	text-align: left;
+	padding-top: 3px
+}
+#wp-calendar #next {
+	text-align: right;
+	padding-top: 3px
+}
+#comments {
+	border: solid 1px #0c8bcd;
+	padding: 0 18px;
+	margin: 20px 0
+}
+#comments h3 {
+	font-size: 0.875em;
+	border-bottom: solid 1px #0c8bcd;
+	padding-bottom: 3px;
+	margin-top: 20px;
+}
+#comments p {
+	font-size: 0.75em
+}
+#comments p a {
+	color: #0c8bcd;
+}
+#comments input, #comments textarea {
+	display: block
+}
+#comments textarea {
+	width: 450px
+}
+#comments .required {
+	color: #ff0000
+}
+#comments ul {
+	margin: 0;
+	padding: 0
+}
+#comments li.compost {
+	list-style-type: none;
+	border-bottom: dotted 1px #0c8bcd;
+	margin-bottom: 20px
+}
+#comments p.cominfo {
+	text-align: right;
+}
